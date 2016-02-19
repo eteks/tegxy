@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'leelawadee';
+    src: url('fonts/leelawadee.eot');
+    src: url('fonts/leelawadee.eot') format('embedded-opentype'),
+         url('fonts/leelawadee.woff2') format('woff2'),
+         url('fonts/leelawadee.woff') format('woff'),
+         url('fonts/leelawadee.ttf') format('truetype'),
+         url('fonts/leelawadee.svg#leelawadee') format('svg');
+}

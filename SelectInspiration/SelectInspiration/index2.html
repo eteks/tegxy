@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-underline.css" />
+		
+	</head>
+	<body>
+		
+			<section>
+				<select class="cs-select cs-skin-underline">
+					<option value="" disabled selected>Choose a Bouquet</option>
+					<option value="1">Gardenia + Daisies</option>
+					<option value="2">Roses + Stephanotis</option>
+					<option value="3">Peony + Gerbera</option>
+					<option value="4">Orchid + Limonium</option>
+					<option value="5">Iris + Omithoalum</option>
+				</select>
+			</section>
+			
+			
+			
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script>
+			(function() {
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx(el);
+				} );
+			})();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,792 @@
+.cdetail
+{
+    width: 100%;
+    color: white;
+}
+
+/*
+.cdetail tr td
+{
+    width: 30% !important;
+    padding-top: 10px;
+}
+.cdetail tr td:first-child
+{
+    font-weight: bold;
+    font-size: 18px;
+}*/
+#content ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#content ul
+{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#grid  ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#grid  ul
+{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+
+.profile ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.profile ul
+{
+    margin: 0px;
+    padding-left: 0px;
+}
+.grid4
+{
+    width:30%;
+    float: left;
+    
+}
+.grid5
+{
+    width:70%;
+    float: left;
+    
+}
+.profile
+{
+    width:100%;
+    color: white;
+	
+}
+
+.profile td p
+{
+    padding: 5px;
+	
+}
+
+.profile tr td
+{
+    width: 30%;
+	
+}
+
+.btn-group span
+{
+        padding: 5px;
+}
+.btn-group button
+{
+        color: black;
+    background-color: #fff;
+    border-color: black;
+}
+.active span{
+    padding: 5px;
+    color: red;
+    background-color: #fff;
+    border-color: black;
+}
+
+.btn-group button:active
+{
+        color: black;
+    background-color: #fff;
+    border-color: black;
+}
+.btn-group button:focus
+{
+        color: black;
+    background-color: #fff;
+    border-color: black;
+}
+
+.mcusheight
+{
+    height:550px;
+}
+
+
+.list1a h3 span
+{
+    font-size: 15px;
+    color: #A9A9A9;
+}
+
+.list1a h3
+{
+    color: #fff;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.venobox:hover
+{
+    color:white;
+    text-decoration: none;
+}
+.venobox:active
+{
+    color:white;
+    text-decoration: none;
+}
+.venobox:focus
+{
+    color:white;
+    text-decoration: none;
+}
+.list-border
+{
+    
+    width: 100%;
+    font-size: 1.2em;
+    height: auto;
+}
+
+.list-border1
+{
+    border: 3px solid white;
+    background-color: #3d3d3b;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.list-border2
+{
+    border: 3px solid white;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #ed9c70;
+    float: left;
+    width: 50%;
+}
+
+.slid
+{
+    background: #303030;
+    width: 100%;
+    font-size: 1.2em;
+    height: auto;
+}
+
+.slider11
+{
+/*    border: 3px solid white;*/
+    float: left;
+    width: 50%;
+/*    padding: 5px;*/
+}
+
+.slider12
+{
+/*    border: 3px solid white;*/
+/*    padding: 5px;*/
+    color: #fff;
+    float: left;
+    width: 50%;
+}
+
+.slider12 h5
+{
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.slider12 p
+{
+    color: #ff;
+    font-size: 10px;
+}
+
+.list1
+{
+    width:100%;
+}
+
+.list1a
+{
+    width:100%;
+    height: auto;
+    float:left;
+    background: rgba(255, 255, 255, 0.28);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.list1b
+{
+    width:50%;
+    height: auto;
+    float:left;
+    color: white;
+    padding: 0px 10px;
+}
+
+.list1b span
+{
+   font-size: 15px;
+   color: #a9a9a9;
+}
+.map1
+{
+    float: left;
+    width: 40%;
+}
+.map2
+{
+    float: left;
+    width: 60%;
+}
+.company1
+{
+    width: 40%;
+    float: left;
+}
+.company1 a
+{
+     width: 150px;
+     text-align: center;
+}
+.wrap1
+{
+    margin-left: 16em;
+}
+
+.wrap
+{
+    width: 340px; text-transform: uppercase;
+}
+
+
+.title
+{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    padding: 15px 35px;
+}
+
+.grid1
+{
+/*    width: 35%;*/
+width: 30%;
+    height: auto;
+    float:left;
+}
+.grid2
+{
+/*      width: 20%;*/
+    width: 21%;
+    height: auto;
+    float:left;
+    color: red;
+/*    margin: 30px 10px;*/
+}
+
+.grid3
+{
+    width: 48%;
+    height: auto;
+    float:left;
+    
+}
+
+.grid3 div
+{
+    text-align: right;
+    color: #fff;
+    float: right;
+    margin: 30px 10px;
+    font-size: 15px;
+}
+.d1
+{
+    width:100%;
+    float: left;
+}
+
+.d2
+{
+    width: 30%;
+    float: left;
+    color: red;
+    height: 125px;
+    padding: 40px 0px;
+}
+
+.d3
+{
+    width:70%;
+    float: left;
+}
+
+.d4
+{
+    width: 30%;
+    float: left;
+    color: red;
+    height: 125px;
+    padding: 40px 0px;
+}
+.but1
+{
+    width: 50%;
+    float: left;
+}
+.but div
+{
+     float: right;
+      margin: 0 13px;
+}
+
+.login1
+{
+    width:50%;
+    float: left;
+}
+
+.fullgrid
+{
+    width: 100%;
+    height: auto;
+}
+
+.co12
+{
+    width:100%;
+    float: left;
+    background: rgba(255, 255, 255, 0.28);
+}
+
+.co1m2
+{
+    width:100%;
+    float: left;
+    }
+    
+.list
+{
+    color: white;
+    margin: 25px 0px;
+    width:50%;
+    float: left;
+}
+
+.com1
+{
+   width: 20%;
+   float: left;
+   padding-bottom: 10px;   
+}
+.com1 h1
+{
+  color: red;
+}
+
+.com1 h3
+{
+  color: red;
+}
+
+.com2
+{
+    width: 40%;
+   float: left;
+   margin-top: 30px;
+}
+.com3
+{
+    width: 40%;
+    float: left;
+    margin-top: 15px;
+}
+.com-bg
+{
+        background-color: #f2f2f2;
+}
+
+
+
+/* MEDIA QUERIES*/
+/* 1920px */
+@media only screen and (min-width:1920px){
+    .mcusheight
+    {
+        height:780px;
+    }
+.grid1
+{
+    width: 34%;
+    height: auto;
+    float:left;
+}
+
+.grid3
+{
+    width: 35%;
+    height: auto;
+    float:left;
+    
+}
+.grid4
+{
+    width:30%;
+    float: left;
+    
+}
+.grid5
+{
+    width:70%;
+    float: left;
+    
+}
+.map1
+{
+    float: left;
+    width: 50%;
+}
+.map2
+{
+    float: left;
+    width: 50%;
+}
+.com1
+{
+    width: 10%;
+    
+}
+}
+
+/* 1024px */
+@media (max-width:1024px){
+.grid1
+{
+    width: 48%;
+    height: auto;
+float: left;
+}
+
+.grid3
+{
+    width: 28%;
+    margin-top: 1%;
+    height: auto;
+float: left;
+}
+
+.map1
+{
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+.map2
+{
+    float: left;
+    width: 100%;
+}
+.slid
+{
+ background: none; 
+}
+
+.grid4
+{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.grid5
+{
+        width: 50%;
+    float: left;
+}
+#related
+{
+    width: 100% !important;
+}
+
+#related1
+{
+     width: 46% !important;
+     float: left;
+}
+
+#related1a
+{
+    width: 100% !important;
+}
+}
+
+
+/* 1280px */
+@media (max-width:1280px){
+.grid1
+{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.grid3
+{
+    width: 25%;
+    height: auto;
+    float:left;
+    
+}
+.map1
+{
+    float: left;
+    width: 100%;
+}
+.map2
+{
+    float: left;
+    width: 100%;
+}
+.mcusheight
+  {
+      height: 550px;
+  }
+  
+#related1 {
+    width: 46% !important;
+    float: left;
+    margin-left: 30px;
+}
+}
+
+/* 980px */
+@media (max-width:980px){
+.grid1
+{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.grid2 {
+    color: red;
+    float: left;
+    height: auto;
+    margin: 30px 45px;
+    width: 50%;
+	text-align:center;
+}
+.grid3 {
+    float: left;
+    height: auto;
+    width: 37%;
+}
+.grid4 {
+    float: left;
+    width: 40%;
+}
+.grid5 {
+    float: left;
+    width: 50%;
+}
+.map1
+{
+    float: left;
+    width: 100%;
+}
+.map2
+{
+    float: left;
+    width: 100%;
+}
+}
+
+/* 800 */
+
+@media (max-width:800px){
+.grid2 {
+    color: #F00;
+    float: left;
+    height: auto;
+    margin: 30px 0px;
+    width: 47%;
+    text-align: right;
+}
+
+.grid3 {
+    float: left;
+    height: auto;
+    width: 49%;
+}
+.map1
+{
+    float: left;
+    width: 100%;
+}
+.map2
+{
+    float: left;
+    width: 100%;
+}
+}
+
+
+@media (max-width:384px){
+.mcusheight
+{
+        height: 450px;
+}
+
+}
+
+/* 594 */
+
+
+@media (max-width:594px){
+.but div
+{
+     float: right;
+      margin: 0 2px;
+}
+
+.map1
+{
+    float: left;
+    width: 100%;
+}
+.map2
+{
+    float: left;
+    width: 100%;
+}
+
+}
+
+/* 600 */
+@media (max-width:600px){
+.mcusheight
+{
+        height: 250px;
+}
+.grid1
+{
+        width: 100%;
+}
+.grid2
+{
+        width: 45%;
+}
+.grid3
+{
+        width: 50%;
+}
+.grid4
+{
+        width: 100%;
+}
+.grid5
+{
+        width: 100%;
+}
+}
+
+/* 768 */
+
+@media (max-width: 768px){
+    .mcusheight
+{
+    height:800px;
+}
+.com1
+{
+   width: 40%; 
+}
+.com2
+{
+   width: 60%; 
+}
+.com3
+{
+   width: 100%; 
+}
+.map2
+{
+    margin: 10px 0px;    
+}
+.grid3{
+    width: 100%;
+}
+.grid4 {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.grid5 {
+    width: 50%;
+    float: left;
+}
+}
+
+/*368 */
+
+@media (max-width:360px){
+    .grid1 {
+    width: 100%;
+	}
+	 
+	.grid2 {
+    width: 50%;
+	}
+	.grid3 {
+    width: 50%;
+	}
+.but1 img
+{
+    width: 120px;
+}  
+
+.hvr-rectangle-in {
+    padding: 4px 17px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0px);
+    box-shadow: 0px 0px 1px transparent;
+    backface-visibility: hidden;
+    position: relative;
+    background: #FFF none repeat scroll 0% 0%;
+    transition-property: color;
+    transition-duration: 0.3s;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.map1
+{
+    float: left;
+    width: 100%;
+}
+.map2
+{
+    float: left;
+    width: 100%;
+}
+}
+
+/* 320 */
+
+
+

@@ -1,0 +1,51 @@
+.onclick-menu {
+position: relative;
+display: inline-block;
+float: right;
+left: 0px;
+width: 100%;
+text-align: right;
+top: 13px;
+padding-right: 21px;
+z-index: 10000;
+}
+
+.selectInner
+{
+content: "V";
+    font-size: 25px;
+    color: #fff;
+}
+.styleSelect select {
+background: rgba(93, 89, 80, 0.48);
+border: medium none;
+border-radius: 0px;
+text-transform: uppercase;
+color: #fff;
+z-index: 2;
+font-family: "leelawadee";
+font-size: 21px;
+width: 340px;
+}
+
+.styleSelect {
+width: 340px;
+overflow: hidden;
+border-radius: 2px;
+padding: 10px 10px 15px;
+border-width: 0px 0px 2px;
+border-style: none none solid;
+border-color: -moz-use-text-color -moz-use-text-color #FFF;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+color: #FFF;
+margin-left: 1.2em;
+}
+.reset {
+    -moz-appearance: none; 
+  -webkit-appearance: none; 
+  appearance: none; 
+}

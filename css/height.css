@@ -1,0 +1,47 @@
+
+
+#container {
+    width: 100%;
+    margin:0 auto;
+/*    background: #fff;*/
+    overflow: hidden
+}
+
+#containera {
+    width: 100%;
+    margin:0 auto;
+    background: #fff;
+    overflow: hidden
+}
+
+#sidebar {
+    float:left;
+    width: 46%;
+}
+
+#content {
+    float:left;
+    width: 50%;
+}
+#sidebar1 {
+    float:left;
+    width: 46%;
+}
+
+#content1 {
+    float:left;
+    width: 50%;
+}
+@media (max-width:1024px){
+#sidebar1 {
+    float:left;
+    width: 80%;
+}
+
+#content1 {
+    float:left;
+    width: 100%;
+}
+
+
+}

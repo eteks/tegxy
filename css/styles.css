@@ -1,0 +1,384 @@
+
+@import url('font-awesome.css');
+
+/* GLOBALS */
+
+*, 
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html { 
+  background: url(../image/Bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ margin:0px; 
+} 
+/* body
+{
+ overflow:hidden;
+} */
+.gradient 
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background: -moz-linear-gradient(top, rgba(36, 31, 41, 0.72) 0%, rgba(119, 117, 117, 0.61) 100% );
+    background: -ms-linear-gradient(top, rgba(36, 31, 41, 0.72) 0%, rgba(119, 117, 117, 0.61) 100% );
+    background: -o-linear-gradient( top, rgba(36, 31, 41, 0.72) 0%, rgba(119, 117, 117, 0.61) 100% );
+    background: -webkit-linear-gradient( top, rgba(36, 31, 41, 0.72) 0%, rgba(119, 117, 117, 0.61) 100% );
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A1463FF, endColorstr=#3A1463FF);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#003A1463, endColorstr=#ff3A1463);
+}
+a
+{
+    text-decoration: none;
+}
+
+.sign_button
+{
+    width: 97%;
+    background-color: #c62026 !important;
+    border-radius: 5px;
+	border: none;
+    outline:none;
+	color:#fff;
+	padding: 7px !important;
+	margin-left: 4px;
+	margin-top: 11px;
+	font-size: 15px;
+}
+
+.spa_col
+{
+color:grey;
+}
+
+.spa_space
+{
+    padding: 5%;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.spa_space1
+{
+    margin-left: 84px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 13px;
+}
+.space_bottom 
+{
+    
+	 padding-top: 15px;
+    padding-bottom: 17px;
+    padding-right: 20px;
+    padding-left: 23px;
+    margin-top: 10px;
+    position: absolute;
+    float: left;
+    width: 350px;
+    right: 0;
+    background: #909090;
+
+}
+.space_bottom1
+{
+    padding: 5%;
+    margin-top: 10px;
+    position: absolute;
+    float: left;
+    width: 350px;
+    right: 0;
+	background:#909090;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-1 {
+    /* Size & position */
+        width: 350px !important;
+   margin: 0px 0px 107px!important;
+    padding: 19px;
+    position: relative; 
+	background-color: #fff;
+}
+
+
+.form-2 {
+width: 90% !important;
+margin: 200px auto 30px !important;
+padding: 10px;
+position: relative; 
+background-color: #fff;
+}
+
+
+.form-1 .field {
+    position: relative; /* For the icon positioning */
+}
+
+.form-1 .field i {
+    /* Size and position */
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 35.3px;
+    width: 40px;
+
+
+    /* Styles */
+    color: #6F6969; 
+    text-align: center;
+    line-height: 42px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+	
+	/* new */
+	
+	background-color: #CCCCCC;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+	
+}
+
+.form-1 input[type=text], .form-2 input[type=text],
+.form-1 input[type=password] {
+
+    font-size: 12px;
+    font-weight: 400;
+    /* Size and position */
+    width: 100%;
+    padding: 10px 18px 10px 45px;
+
+    /* Styles */
+    border: none; 
+    box-shadow: 
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #adadad;
+    color: #fff;
+  
+}
+::-webkit-input-placeholder {
+   color: #fff;
+   font-size: 14px;
+}
+
+
+.form-2 input[type=text],
+.form-2 input[type=password] {
+
+    font-size: 12px;
+    font-weight: 400;
+    /* Size and position */
+    padding: 10px 18px 10px 45px;
+
+    /* Styles */
+    border: none; 
+    box-shadow: 
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #adadad;
+    color: #fff;
+  
+}
+::-webkit-input-placeholder {
+   color: #fff;
+   font-size: 14px;
+}
+
+.form-1 input[type=text] {
+    margin-bottom: 10px;
+}
+
+.form-1 input[type=text]:hover ~ i,
+.form-1 input[type=password]:hover ~ i {
+    color: black;
+}
+
+.form-1 input[type=text]:focus ~ i,
+.form-1 input[type=password]:focus ~ i {
+    color: black;
+}
+
+.form-1 input[type=text]:focus,
+.form-1 input[type=password]:focus
+{
+    outline: none;
+}
+.button11
+{
+    border: 1px solid #fff;
+    float: right;
+    margin-top: 11px;
+    margin-right: 60px;
+	
+}
+.register_st
+{
+    float: right;
+    position: relative;
+    left: 332px;
+    top: 11px;
+    border: 1px solid #fff;
+    width: 26px;
+    text-align: center;
+    height: 28px;
+    color: #000;
+    background: #fff;	
+    border-radius: 12px 0px 14px;
+}
+.signout_st
+{
+    float: right;
+    position: relative;
+     left: 134px;
+    top: 11px;
+    border: 1px solid #fff;
+    width: 26px;
+    text-align: center;
+    height: 28px;
+    color: black;
+    background: #fff;
+	border-radius: 12px 0px 14px;
+	    z-index: 1;
+}
+.spacing
+{
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+.removeout
+{
+outline:none;
+}
+.trans_sign
+{
+   margin-top: 15px;
+    float: right;
+    margin-right: 9px;
+    color: #fff;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+}
+.container1{
+
+      position: relative;
+      margin: auto;
+      -webkit-perspective: 800px;
+         -moz-perspective: 800px;
+           -o-perspective: 800px;
+              perspective: 800px;  
+    }
+    form {
+  margin: 0;
+}
+.forget{
+    float: right;
+    color: #fff;
+    margin-top: 17px;
+	cursor:pointer;
+	font-size: 12px;
+	}
+	
+	
+/* new flip */
+.panel {
+  max-width: 350px;
+  height: 295px;
+  margin: 200px auto;
+  position: relative;
+  -moz-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.panel .front, .panel .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  overflow: hidden;
+}
+.panel .front {
+  z-index: 900;
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -ms-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  transform: rotateX(0deg) rotateY(0deg);
+}
+.panel .back {
+  z-index: 800;
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel.flip .back {
+  z-index: 1000;
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -ms-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  transform: rotateX(0deg) rotateY(0deg);
+}
+.panel.flip .front {
+  z-index: 900;
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.inside {
+  overflow: hidden;
+}
+
+.button_1 {
+  clear: both;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+/* new flip end */
